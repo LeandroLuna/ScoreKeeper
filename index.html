@@ -1,0 +1,33 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ping Pong</title>
+    <style>
+      .vencedor {
+        color: green;
+      }
+      .perdedor {
+        color: red;
+      }
+    </style>
+  </head>
+  <body>
+    <h1><span id="player1"> 0 </span> x <span id="player2"> 0 </span></h1>
+    <select
+      name=""
+      id="maximojogadas"
+      style="display: block; margin-bottom: 10px"
+    >
+      <option value="3">3</option>
+      <option value="5">5</option>
+      <option value="7">7</option>
+    </select>
+    <button id="p1">+1 Jogador 1</button>
+    <button id="p2">+1 Jogador 2</button>
+    <button id="reset">Reset</button>
+
+    <script src="app.js"></script>
+  </body>
+</html>
